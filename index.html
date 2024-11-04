@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Bakery Website</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">Cubix</a>
+        
+
+        
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#new" class="nav__link ">Different services</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <!-- closr btn -->
+          <img src="assets/img/bread-4.png" alt="image" class="nav__img-1" />
+          <img src="assets/img/bread-1.png" alt="image" class="nav__img-2" />
+        </div>
+
+        <!-- Toggle btn -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img src="./assets/img/home-bg.jpg" alt="image" class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home_container container grid">
+          <div class="home__data">
+            <h1 class="home__title" style="margin-top: 100px;">
+              Get the  easiest <br />
+              steps to solve cubes
+            </h1>
+            <!-- <a href="" class="button">Select Breads</a> -->
+          </div>
+
+          <div class="home__image">
+            <img
+              src="Rubiks-Cubes Background Removed.png"
+              alt="image"
+              class="home__img"
+            />
+          </div>
+          <footer class="home__footer">
+            
+
+            <!-- <div class="home__social">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a href="https://www.instagram.com/pawan.bondre29/" target="_blank">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="ri-youtube-line"></i>
+              </a>
+            </div> -->
+          </footer>
+        </div>
+      </section>
+
+      <!--==================== Diff cubes ====================-->
+      <section class="new section" id="new">
+        <h2 class="section__title">Solve different cubes</h2>
+
+        <div class="new__container container grid">
+          <div class="new__content grid">
+            <article class="new__card">
+              <div class="new__data">
+                <a href="Main page/cubewebsite.html"><h2 class="new__title">3x3 cube</h2></a>
+                
+              </div>
+              <img
+                src="3x3 Background Removed.png"
+                alt="image"
+                class="new__img"
+              />
+            </article>
+
+            <article class="new__card">
+              <div class="new__data">
+                <a href=""><h2 class="new__title">4x4 Cube</h2></a>
+              </div>
+              <img
+                src="4x4 Background Removed.png"
+                alt="image"
+                class="new__img"
+              />
+            </article>
+
+            <article class="new__card">
+              <div class="new__data">
+                <a href=""><h2 class="new__title">Pyraminx Cube</h2></a>
+                <p class="new__description">
+                </p>
+              </div>
+              <img
+                src="pyra Background Removed.png"
+                alt="image"
+                class="new__img"
+              />
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">About Us</h2>
+
+            <p class="about__description">
+              I’ve developed a cube solver that takes user input, processes it with Google Gemini to receive a step-by-step solution, and displays it. The backend is built using Flask, while the frontend remains simple with HTML and CSS.
+            </p>
+
+            
+          </div>
+          <img src="cubesssss.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+
+    <!--========== SCROLL UP ==========-->
+       <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+       </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
